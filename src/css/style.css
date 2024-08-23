@@ -1,0 +1,75 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    background-color:var(--cor-de-fundo);
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.fundo-container {
+    background-color: var(--cor-do-card);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: var(--cor-do-botao-do-card-e-do-titulo);
+    letter-spacing: 3px;
+}
+
+p {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    color: var(--cor-do-texto);
+    text-align: center;
+}
+
+.separacao {
+    width: 100%;
+}
+
+.linha {
+    display: flex;
+    width: 80%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    padding: 20px;
+    background-color: var(--cor-do-botao-do-card-e-do-titulo);
+    border-radius: 30px;
+    margin: 0 auto;
+    transform: translateY(45%);
+}
+
+    /* O transform: translateY(85%); foi adicionado para centralizar o botão na tela usando o eixo Y. 
+    Também é possível fazer o mesmo com utilizando o position, mas daria um pouco mais de trabalho.
+    */
+
+
+.botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+.img-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
